@@ -3,11 +3,20 @@ html {
 }
 
 .bg-specific {
-  background-color: rgb(231, 231, 231) !important;
+  background-color: rgb(241, 241, 241) !important;
+}
+
+.bg-title {
+  background-color: #78e08f !important;
 }
 
 .img-linked-in-logo {
   width: 50px !important;
+}
+
+#stack-anchor {
+  height: 56px;
+  display: none;
 }
 
 .no-padding-specific {
@@ -22,12 +31,12 @@ html {
 }
 
 .title-li-frontend {
-  background-color: #079992 !important;
-  color: white !important;
+  background-color: #78e08f !important;
+  color: black !important;
 }
 .title-li-backend {
-  background-color: #e58e26 !important;
-  color: white !important;
+  background-color: #78e08f !important;
+  color: black !important;
 }
 
 .container-listgroups {
@@ -35,3 +44,5 @@ html {
   justify-content: space-evenly !important;
   align-items: flex-start !important;
 }
+
+/* anchor */

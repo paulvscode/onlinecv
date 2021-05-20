@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online Cv</title>
+    <link rel="shortcut icon" href="favicon.ico" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
@@ -12,151 +13,111 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Paul Barraud de Lagerie</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a
-                id="stack-link"
-                class="nav-link active"
-                aria-current="page"
-                href="#"
-                >Stack</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#realisations">Réalisations</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Contact
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Téléchargement CV</a></li>
+    <div class="top-header py-2 mt-1">
+      <div class="container">
+        <h1 class="fs-4 text-center">Paul Barraud de Lagerie</h1>
+      </div>
+    </div>
 
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    target="_blank"
-                    href="https://www.linkedin.com/in/paulbarrauddelagerie/"
-                    ><img
-                      class="img-fluid img-thumbnail img-linked-in-logo"
-                      src="LI-In-Bug.png"
-                      alt="linked in logo"
-                  /></a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+    <nav class="navbar-sm sticky-top navbar-light bg-light">
+      <div class="container-fluid text-center bg-specific p-2">
+        <a class="navbar-brand" href="#">Stack</a>
+        <a class="navbar-brand" href="#">Projets</a>
+        <a class="navbar-brand" href="#">Contact</a>
       </div>
     </nav>
 
     <div class="main">
-      <div class="container bg-light section-title rounded mt-2">
-        <h2 class="h5 text-center" id="stack-anchor">Stack</h2>
+      <div class="container section-title mt-2 bg-title">
+        <h2 class="h5 text-center">Stack</h2>
       </div>
-      <div class="container">
-        <div class="box mt-2 p-0">
-          <div class="container-listgroups">
-            <ul class="list-group">
-              <li class="list-group-item title-li-frontend">Front-End</li>
-              <li class="list-group-item">Html</li>
-              <li class="list-group-item">Css / Sass</li>
-              <li class="list-group-item">React</li>
-              <li class="list-group-item">Redux</li>
-            </ul>
-            <ul class="list-group">
-              <li class="list-group-item title-li-backend">Back-End</li>
-              <li class="list-group-item">Node Js</li>
-              <li class="list-group-item">Express Js</li>
-              <li class="list-group-item">Sequelize</li>
-              <li class="list-group-item">Postgresql</li>
-            </ul>
-          </div>
-          <div class="container-listgroups mt-4">
-            <ul class="list-group">
-              <li class="list-group-item title-li-frontend">Frameworks</li>
-              <li class="list-group-item">Material UI</li>
-              <li class="list-group-item">Bootstrap</li>
-              <li class="list-group-item">Grid</li>
-            </ul>
-            <ul class="list-group">
-              <li class="list-group-item title-li-backend">Others</li>
-              <li class="list-group-item">Git</li>
-              <li class="list-group-item">GitHub</li>
-              <li class="list-group-item">Npm</li>
-              <li class="list-group-item">Slack</li>
-            </ul>
-          </div>
-        </div>
 
-        <div class="container bg-light section-title rounded mt-2">
-          <h2 class="h5 text-center" id="realisations">Réalisations</h2>
+      <div class="box mt-2 p-0">
+        <div class="container-listgroups">
+          <ul class="list-group">
+            <li class="list-group-item title-li-frontend">Front-End</li>
+            <li class="list-group-item">Html</li>
+            <li class="list-group-item">Css / Sass</li>
+            <li class="list-group-item">React</li>
+            <li class="list-group-item">Redux</li>
+          </ul>
+          <ul class="list-group">
+            <li class="list-group-item title-li-backend">Back-End</li>
+            <li class="list-group-item">Node Js</li>
+            <li class="list-group-item">Express Js</li>
+            <li class="list-group-item">Sequelize</li>
+            <li class="list-group-item">Postgresql</li>
+          </ul>
         </div>
-        <div class="box border mt-2 p-5">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-            velit fugiat, non eum voluptatibus adipisci explicabo eligendi quo
-            autem laudantium sequi iusto soluta beatae et qui consequuntur,
-            alias tempore dolores quas architecto odio! A consectetur sequi quis
-            eum magnam dolor, dicta quia illum saepe ducimus eius, consequatur
-            accusamus alias ipsum.
-          </p>
+        <div class="container-listgroups mt-4">
+          <ul class="list-group">
+            <li class="list-group-item title-li-frontend">Frameworks</li>
+            <li class="list-group-item">Material UI</li>
+            <li class="list-group-item">Bootstrap</li>
+            <li class="list-group-item">Grid</li>
+          </ul>
+          <ul class="list-group">
+            <li class="list-group-item title-li-backend">Others</li>
+            <li class="list-group-item">Git</li>
+            <li class="list-group-item">GitHub</li>
+            <li class="list-group-item">Npm</li>
+            <li class="list-group-item">Slack</li>
+          </ul>
         </div>
-        <div class="box border mt-2 p-5">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-            velit fugiat, non eum voluptatibus adipisci explicabo eligendi quo
-            autem laudantium sequi iusto soluta beatae et qui consequuntur,
-            alias tempore dolores quas architecto odio! A consectetur sequi quis
-            eum magnam dolor, dicta quia illum saepe ducimus eius, consequatur
-            accusamus alias ipsum.
-          </p>
-        </div>
-        <div class="box border mt-2 p-5">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-            velit fugiat, non eum voluptatibus adipisci explicabo eligendi quo
-            autem laudantium sequi iusto soluta beatae et qui consequuntur,
-            alias tempore dolores quas architecto odio! A consectetur sequi quis
-            eum magnam dolor, dicta quia illum saepe ducimus eius, consequatur
-            accusamus alias ipsum.
-          </p>
-        </div>
-        <div class="box border mt-2 p-5">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-            velit fugiat, non eum voluptatibus adipisci explicabo eligendi quo
-            autem laudantium sequi iusto soluta beatae et qui consequuntur,
-            alias tempore dolores quas architecto odio! A consectetur sequi quis
-            eum magnam dolor, dicta quia illum saepe ducimus eius, consequatur
-            accusamus alias ipsum.
-          </p>
-        </div>
-        <div id="lol">zob</div>
       </div>
+
+      <div id="projets" class="container section-title mt-2 bg-title">
+        <h2 class="h5 text-center">Projets</h2>
+      </div>
+
+      <div class="container">
+        <div class="box border mt-2 p-5">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+            velit fugiat, non eum voluptatibus adipisci explicabo eligendi quo
+            autem laudantium sequi iusto soluta beatae et qui consequuntur,
+            alias tempore dolores quas architecto odio! A consectetur sequi quis
+            eum magnam dolor, dicta quia illum saepe ducimus eius, consequatur
+            accusamus alias ipsum.
+          </p>
+        </div>
+        <div class="box border mt-2 p-5">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+            velit fugiat, non eum voluptatibus adipisci explicabo eligendi quo
+            autem laudantium sequi iusto soluta beatae et qui consequuntur,
+            alias tempore dolores quas architecto odio! A consectetur sequi quis
+            eum magnam dolor, dicta quia illum saepe ducimus eius, consequatur
+            accusamus alias ipsum.
+          </p>
+        </div>
+        <div class="box border mt-2 p-5">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+            velit fugiat, non eum voluptatibus adipisci explicabo eligendi quo
+            autem laudantium sequi iusto soluta beatae et qui consequuntur,
+            alias tempore dolores quas architecto odio! A consectetur sequi quis
+            eum magnam dolor, dicta quia illum saepe ducimus eius, consequatur
+            accusamus alias ipsum.
+          </p>
+        </div>
+        <div class="box border mt-2 p-5">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+            velit fugiat, non eum voluptatibus adipisci explicabo eligendi quo
+            autem laudantium sequi iusto soluta beatae et qui consequuntur,
+            alias tempore dolores quas architecto odio! A consectetur sequi quis
+            eum magnam dolor, dicta quia illum saepe ducimus eius, consequatur
+            accusamus alias ipsum.
+          </p>
+        </div>
+      </div>
+
+      <div class="container section-title mt-2 bg-title">
+        <h2 class="h5 text-center">Contact</h2>
+      </div>
+
+      <div class="footer">footer</div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
