@@ -1,0 +1,33 @@
+.bg-specific {
+  background-color: rgb(231, 231, 231) !important;
+}
+
+.img-linked-in-logo {
+  width: 50px !important;
+}
+
+.no-padding-specific {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.list-group-item {
+  width: 150px !important;
+}
+
+.title-li-frontend {
+  background-color: #079992 !important;
+  color: white !important;
+}
+.title-li-backend {
+  background-color: #e58e26 !important;
+  color: white !important;
+}
+
+.container-listgroups {
+  display: flex !important;
+  justify-content: space-evenly !important;
+  align-items: flex-start !important;
+}
