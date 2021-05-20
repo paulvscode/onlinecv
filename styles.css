@@ -46,3 +46,7 @@ html {
 }
 
 /* anchor */
+
+.anchor {
+  scroll-margin-top: 46px;
+}
