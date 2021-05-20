@@ -1,13 +1,22 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  background: rgb(229, 142, 38);
+  background: linear-gradient(
+    180deg,
+    rgba(229, 142, 38, 0.05336426914153136) 0%,
+    rgba(7, 153, 146, 0.6774941995359629) 98%
+  );
+}
 
 .bg-specific {
-  background-color: rgb(241, 241, 241) !important;
+  background-color: white !important;
 }
 
 .bg-title {
-  background-color: #78e08f !important;
+  background-color: #079992 !important;
+  color: white !important;
 }
 
 .img-linked-in-logo {
@@ -31,12 +40,12 @@ html {
 }
 
 .title-li-frontend {
-  background-color: #78e08f !important;
-  color: black !important;
+  background-color: #079992 !important;
+  color: white !important;
 }
 .title-li-backend {
-  background-color: #78e08f !important;
-  color: black !important;
+  background-color: #079992 !important;
+  color: white !important;
 }
 
 .container-listgroups {
