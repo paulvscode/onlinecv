@@ -11,6 +11,69 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background: rgb(229, 142, 38);
+        background: linear-gradient(
+          180deg,
+          rgba(229, 142, 38, 0.05336426914153136) 0%,
+          rgba(7, 153, 146, 0.6774941995359629) 98%
+        );
+      }
+
+      .bg-specific {
+        background-color: white !important;
+      }
+
+      .bg-title {
+        background-color: #079992 !important;
+        color: white !important;
+      }
+
+      .img-linked-in-logo {
+        width: 50px !important;
+      }
+
+      #stack-anchor {
+        height: 56px;
+        display: none;
+      }
+
+      .no-padding-specific {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+      }
+
+      .list-group-item {
+        width: 150px !important;
+      }
+
+      .title-li-frontend {
+        background-color: #079992 !important;
+        color: white !important;
+      }
+      .title-li-backend {
+        background-color: #079992 !important;
+        color: white !important;
+      }
+
+      .container-listgroups {
+        display: flex !important;
+        justify-content: space-evenly !important;
+        align-items: flex-start !important;
+      }
+
+      /* anchor */
+
+      .anchor {
+        scroll-margin-top: 46px;
+      }
+    </style>
   </head>
   <body>
     <div class="top-header py-2 mt-1">
@@ -28,137 +91,147 @@
     </nav>
 
     <div class="main">
-      <div class="container section-title mt-2 bg-title">
-        <h2 class="h5 text-center">Stack</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="container-fluid section-title mt-2 bg-title">
+            <h2 class="h5 text-center">Stack</h2>
+          </div>
+
+          <div class="box mt-5 mb-5 p-1">
+            <div class="container-listgroups">
+              <ul class="list-group">
+                <li class="list-group-item title-li-frontend">Front-End</li>
+                <li class="list-group-item">Html</li>
+                <li class="list-group-item">Css / Sass</li>
+                <li class="list-group-item">React</li>
+                <li class="list-group-item">Redux</li>
+              </ul>
+              <ul class="list-group">
+                <li class="list-group-item title-li-backend">Back-End</li>
+                <li class="list-group-item">Node Js</li>
+                <li class="list-group-item">Express Js</li>
+                <li class="list-group-item">Sequelize</li>
+                <li class="list-group-item">Postgresql</li>
+              </ul>
+            </div>
+            <div class="container-listgroups mt-4">
+              <ul class="list-group">
+                <li class="list-group-item title-li-frontend">Frameworks</li>
+                <li class="list-group-item">Material UI</li>
+                <li class="list-group-item">Bootstrap</li>
+                <li class="list-group-item">Grid</li>
+              </ul>
+              <ul class="list-group">
+                <li class="list-group-item title-li-backend">Others</li>
+                <li class="list-group-item">Git</li>
+                <li class="list-group-item">GitHub</li>
+                <li class="list-group-item">Npm</li>
+                <li class="list-group-item">Slack</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div id="project-div" class="anchor"></div>
+          <div id="projets" class="container-fluid section-title mt-2 bg-title">
+            <h2 class="h5 text-center">Projets</h2>
+          </div>
+
+          <div class="container-fluid">
+            <div class="box border mt-2 p-5">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+                velit fugiat, non eum voluptatibus adipisci explicabo eligendi
+                quo autem laudantium sequi iusto soluta beatae et qui
+                consequuntur, alias tempore dolores quas architecto odio! A
+                consectetur sequi quis eum magnam dolor, dicta quia illum saepe
+                ducimus eius, consequatur accusamus alias ipsum.
+              </p>
+            </div>
+            <div class="box border mt-2 p-5">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+                velit fugiat, non eum voluptatibus adipisci explicabo eligendi
+                quo autem laudantium sequi iusto soluta beatae et qui
+                consequuntur, alias tempore dolores quas architecto odio! A
+                consectetur sequi quis eum magnam dolor, dicta quia illum saepe
+                ducimus eius, consequatur accusamus alias ipsum.
+              </p>
+            </div>
+            <div class="box border mt-2 p-5">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+                velit fugiat, non eum voluptatibus adipisci explicabo eligendi
+                quo autem laudantium sequi iusto soluta beatae et qui
+                consequuntur, alias tempore dolores quas architecto odio! A
+                consectetur sequi quis eum magnam dolor, dicta quia illum saepe
+                ducimus eius, consequatur accusamus alias ipsum.
+              </p>
+            </div>
+            <div class="box border mt-2 p-5">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+                velit fugiat, non eum voluptatibus adipisci explicabo eligendi
+                quo autem laudantium sequi iusto soluta beatae et qui
+                consequuntur, alias tempore dolores quas architecto odio! A
+                consectetur sequi quis eum magnam dolor, dicta quia illum saepe
+                ducimus eius, consequatur accusamus alias ipsum.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="box mt-5 mb-5 p-1">
-        <div class="container-listgroups">
-          <ul class="list-group">
-            <li class="list-group-item title-li-frontend">Front-End</li>
-            <li class="list-group-item">Html</li>
-            <li class="list-group-item">Css / Sass</li>
-            <li class="list-group-item">React</li>
-            <li class="list-group-item">Redux</li>
-          </ul>
-          <ul class="list-group">
-            <li class="list-group-item title-li-backend">Back-End</li>
-            <li class="list-group-item">Node Js</li>
-            <li class="list-group-item">Express Js</li>
-            <li class="list-group-item">Sequelize</li>
-            <li class="list-group-item">Postgresql</li>
-          </ul>
-        </div>
-        <div class="container-listgroups mt-4">
-          <ul class="list-group">
-            <li class="list-group-item title-li-frontend">Frameworks</li>
-            <li class="list-group-item">Material UI</li>
-            <li class="list-group-item">Bootstrap</li>
-            <li class="list-group-item">Grid</li>
-          </ul>
-          <ul class="list-group">
-            <li class="list-group-item title-li-backend">Others</li>
-            <li class="list-group-item">Git</li>
-            <li class="list-group-item">GitHub</li>
-            <li class="list-group-item">Npm</li>
-            <li class="list-group-item">Slack</li>
-          </ul>
-        </div>
-      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="contact-div" class="anchor"></div>
+          <div class="container-fluid section-title mt-2 bg-title">
+            <h2 class="h5 text-center">Contact</h2>
+          </div>
 
-      <div id="project-div" class="anchor"></div>
-      <div id="projets" class="container section-title mt-2 bg-title">
-        <h2 class="h5 text-center">Projets</h2>
-      </div>
-
-      <div class="container">
-        <div class="box border mt-2 p-5">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-            velit fugiat, non eum voluptatibus adipisci explicabo eligendi quo
-            autem laudantium sequi iusto soluta beatae et qui consequuntur,
-            alias tempore dolores quas architecto odio! A consectetur sequi quis
-            eum magnam dolor, dicta quia illum saepe ducimus eius, consequatur
-            accusamus alias ipsum.
-          </p>
-        </div>
-        <div class="box border mt-2 p-5">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-            velit fugiat, non eum voluptatibus adipisci explicabo eligendi quo
-            autem laudantium sequi iusto soluta beatae et qui consequuntur,
-            alias tempore dolores quas architecto odio! A consectetur sequi quis
-            eum magnam dolor, dicta quia illum saepe ducimus eius, consequatur
-            accusamus alias ipsum.
-          </p>
-        </div>
-        <div class="box border mt-2 p-5">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-            velit fugiat, non eum voluptatibus adipisci explicabo eligendi quo
-            autem laudantium sequi iusto soluta beatae et qui consequuntur,
-            alias tempore dolores quas architecto odio! A consectetur sequi quis
-            eum magnam dolor, dicta quia illum saepe ducimus eius, consequatur
-            accusamus alias ipsum.
-          </p>
-        </div>
-        <div class="box border mt-2 p-5">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-            velit fugiat, non eum voluptatibus adipisci explicabo eligendi quo
-            autem laudantium sequi iusto soluta beatae et qui consequuntur,
-            alias tempore dolores quas architecto odio! A consectetur sequi quis
-            eum magnam dolor, dicta quia illum saepe ducimus eius, consequatur
-            accusamus alias ipsum.
-          </p>
-        </div>
-      </div>
-
-      <div id="contact-div" class="anchor"></div>
-      <div class="container section-title mt-2 bg-title">
-        <h2 class="h5 text-center">Contact</h2>
-      </div>
-
-      <div class="container">
-        <div class="box border mt-2 p-5">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-            velit fugiat, non eum voluptatibus adipisci explicabo eligendi quo
-            autem laudantium sequi iusto soluta beatae et qui consequuntur,
-            alias tempore dolores quas architecto odio! A consectetur sequi quis
-            eum magnam dolor, dicta quia illum saepe ducimus eius, consequatur
-            accusamus alias ipsum.
-          </p>
-        </div>
-        <div class="box border mt-2 p-5">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-            velit fugiat, non eum voluptatibus adipisci explicabo eligendi quo
-            autem laudantium sequi iusto soluta beatae et qui consequuntur,
-            alias tempore dolores quas architecto odio! A consectetur sequi quis
-            eum magnam dolor, dicta quia illum saepe ducimus eius, consequatur
-            accusamus alias ipsum.
-          </p>
-        </div>
-        <div class="box border mt-2 p-5">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-            velit fugiat, non eum voluptatibus adipisci explicabo eligendi quo
-            autem laudantium sequi iusto soluta beatae et qui consequuntur,
-            alias tempore dolores quas architecto odio! A consectetur sequi quis
-            eum magnam dolor, dicta quia illum saepe ducimus eius, consequatur
-            accusamus alias ipsum.
-          </p>
-        </div>
-        <div class="box border mt-2 p-5">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-            velit fugiat, non eum voluptatibus adipisci explicabo eligendi quo
-            autem laudantium sequi iusto soluta beatae et qui consequuntur,
-            alias tempore dolores quas architecto odio! A consectetur sequi quis
-            eum magnam dolor, dicta quia illum saepe ducimus eius, consequatur
-            accusamus alias ipsum.
-          </p>
+          <div class="container">
+            <div class="box border mt-2 p-5">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+                velit fugiat, non eum voluptatibus adipisci explicabo eligendi
+                quo autem laudantium sequi iusto soluta beatae et qui
+                consequuntur, alias tempore dolores quas architecto odio! A
+                consectetur sequi quis eum magnam dolor, dicta quia illum saepe
+                ducimus eius, consequatur accusamus alias ipsum.
+              </p>
+            </div>
+            <div class="box border mt-2 p-5">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+                velit fugiat, non eum voluptatibus adipisci explicabo eligendi
+                quo autem laudantium sequi iusto soluta beatae et qui
+                consequuntur, alias tempore dolores quas architecto odio! A
+                consectetur sequi quis eum magnam dolor, dicta quia illum saepe
+                ducimus eius, consequatur accusamus alias ipsum.
+              </p>
+            </div>
+            <div class="box border mt-2 p-5">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+                velit fugiat, non eum voluptatibus adipisci explicabo eligendi
+                quo autem laudantium sequi iusto soluta beatae et qui
+                consequuntur, alias tempore dolores quas architecto odio! A
+                consectetur sequi quis eum magnam dolor, dicta quia illum saepe
+                ducimus eius, consequatur accusamus alias ipsum.
+              </p>
+            </div>
+            <div class="box border mt-2 p-5">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
+                velit fugiat, non eum voluptatibus adipisci explicabo eligendi
+                quo autem laudantium sequi iusto soluta beatae et qui
+                consequuntur, alias tempore dolores quas architecto odio! A
+                consectetur sequi quis eum magnam dolor, dicta quia illum saepe
+                ducimus eius, consequatur accusamus alias ipsum.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
