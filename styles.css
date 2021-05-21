@@ -2,12 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: rgb(229, 142, 38);
-  background: linear-gradient(
-    180deg,
-    rgba(229, 142, 38, 0.05336426914153136) 0%,
-    rgba(7, 153, 146, 0.6774941995359629) 98%
-  );
+  background: none !important;
+}
+.overcolor {
+  background-color: rgb(255, 237, 73) !important;
 }
 
 .bg-specific {
@@ -62,4 +60,10 @@ body {
 
 .no-gutter {
   --bs-gutter-x: 0rem !important;
+}
+
+/* hover */
+
+.navbar-brand:hover {
+  background-color: rgb(255, 237, 73) !important;
 }
