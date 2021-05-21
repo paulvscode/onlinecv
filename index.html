@@ -24,29 +24,35 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="top-header py-2 mt-1">
-      <div class="container">
-        <h1 class="fs-4 text-center">
-          <span class="overcolor">Paul Barraud de Lagerie</span>
-        </h1>
+    <div class="row-fluid stick-to-top mobile-styling-top-div">
+      <div class="col-md-6">
+        <div class="top-header py-2 mt-1">
+          <div class="container">
+            <h1 class="fs-4 text-center">
+              <span class="overcolor">Paul Barraud de Lagerie</span>
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <nav class="navbar-sm navbar-light">
+          <div class="container-fluid text-center p-2">
+            <a class="navbar-brand" href="#stack-div">Stack</a>
+            <a class="navbar-brand" href="#project-div">Projets</a>
+            <a class="navbar-brand" href="#contact-div">Contact</a>
+          </div>
+        </nav>
       </div>
     </div>
 
-    <nav class="navbar-sm sticky-top navbar-light bg-light">
-      <div class="container-fluid text-center bg-specific p-2">
-        <a class="navbar-brand" href="#stack-div">Stack</a>
-        <a class="navbar-brand" href="#project-div">Projets</a>
-        <a class="navbar-brand" href="#contact-div">Contact</a>
-      </div>
-    </nav>
-
-    <div>
-      <div class="col-md-12 p-3 text-center">
+    <div class="border-bot-yellow">
+      <div class="col-md-12 p-3 text-center margin-fixed-div">
         <p class="h6 lh-base">
           Je suis développeur fullstack web & mobile javascript.
         </p>
         <p class="h6 lh-base">
-          Si vous voulez en savoir plus : <a href="bio.html">à propos</a>
+          En savoir plus sur mon parcours : <a href="bio.html">à propos</a>
         </p>
       </div>
     </div>
@@ -94,7 +100,7 @@
           </div>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-6 border-bot-yellow">
           <div id="project-div" class="anchor"></div>
           <div
             id="projets"
