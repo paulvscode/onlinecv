@@ -38,6 +38,8 @@ body {
 .projets-images {
   width: 300px !important;
   height: 200px;
+  max-height: 200px;
+  max-width: 300px;
 }
 
 .container-flex-projects {
