@@ -13,8 +13,18 @@ body {
 
 .bg-title {
   color: black !important;
-  border-top: 1px solid rgb(252, 232, 52) !important;
-  border-bottom: 1px solid rgb(252, 232, 52) !important;
+  text-decoration: underline !important;
+  background-color: rgb(248, 248, 248);
+}
+
+.bg-title-white {
+  color: black !important;
+  text-decoration: underline !important;
+  background-color: white;
+}
+
+.grey-bg {
+  background-color: rgb(248, 248, 248) !important;
 }
 
 .overcolor {
@@ -23,6 +33,19 @@ body {
 
 .img-linked-in-logo {
   width: 30px !important;
+}
+
+.projets-images {
+  width: 300px !important;
+  height: 200px;
+}
+
+.container-flex-projects {
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center;
+  padding: 1.3rem !important;
+  flex-direction: column;
 }
 
 #stack-anchor {
@@ -39,6 +62,9 @@ body {
 
 .list-group-item {
   width: 150px !important;
+  font-weight: 600;
+  border: none;
+  font-size: 1.3rem !important;
 }
 
 .title-li-frontend {
@@ -54,6 +80,24 @@ body {
   display: flex !important;
   justify-content: space-evenly !important;
   align-items: flex-start !important;
+}
+
+.list-group {
+  list-style-type: none !important;
+  text-align: center;
+}
+
+.border-bot-yellow {
+  border-bottom: 1px solid rgb(252, 232, 52);
+}
+
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+.custom-btn {
+  background-color: rgb(252, 232, 52);
+  font-size: 1.2rem;
 }
 
 /* anchor */

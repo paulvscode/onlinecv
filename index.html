@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online Cv</title>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
+    ></script>
+    <script src="script.js"></script>
+
     <link rel="shortcut icon" href="favicon.ico" />
     <link
       rel="stylesheet"
@@ -28,19 +34,19 @@
 
     <nav class="navbar-sm sticky-top navbar-light bg-light">
       <div class="container-fluid text-center bg-specific p-2">
-        <a class="navbar-brand" href="#">Stack</a>
+        <a class="navbar-brand" href="#stack-div">Stack</a>
         <a class="navbar-brand" href="#project-div">Projets</a>
         <a class="navbar-brand" href="#contact-div">Contact</a>
       </div>
     </nav>
 
     <div>
-      <div class="col-md-6 p-5">
-        <p class="h3 lh-base">
+      <div class="col-md-12 p-3 text-center">
+        <p class="h5 lh-base">
           Après plus de 10 ans à mi-chemin entre le service client et le
           développement web, j'ai décidé de me consacrer à ce dernier.
         </p>
-        <p class="h3 lh-base">
+        <p class="h5 lh-base">
           Je suis développeur fullstack de formation, spécialisé React. passion
           à plein temps.
         </p>
@@ -49,8 +55,9 @@
 
     <div class="main">
       <div class="row no-gutter">
-        <div class="col-md-6">
-          <div class="container-fluid section-title mt-3 bg-title">
+        <div class="col-md-6 grey-bg border-bot-yellow">
+          <div id="stack-div" class="anchor"></div>
+          <div class="container-fluid section-title bg-title">
             <h2 class="p-3 h5 text-center">Stack</h2>
           </div>
 
@@ -58,32 +65,32 @@
             <div class="container-listgroups">
               <ul class="list-group">
                 <li class="list-group-item title-li-frontend">Front-End</li>
-                <li class="list-group-item">Html</li>
-                <li class="list-group-item">Css / Sass</li>
-                <li class="list-group-item">React</li>
-                <li class="list-group-item">Redux</li>
+                <li class="">Html</li>
+                <li class="">Css / Sass</li>
+                <li class="">React</li>
+                <li class="">Redux</li>
               </ul>
               <ul class="list-group">
                 <li class="list-group-item title-li-backend">Back-End</li>
-                <li class="list-group-item">Node Js</li>
-                <li class="list-group-item">Express Js</li>
-                <li class="list-group-item">Sequelize</li>
-                <li class="list-group-item">Postgresql</li>
+                <li class="">Node Js</li>
+                <li class="">Express Js</li>
+                <li class="">Sequelize</li>
+                <li class="">Postgresql</li>
               </ul>
             </div>
             <div class="container-listgroups mt-4">
               <ul class="list-group">
                 <li class="list-group-item title-li-frontend">Frameworks</li>
-                <li class="list-group-item">Material UI</li>
-                <li class="list-group-item">Bootstrap</li>
-                <li class="list-group-item">Grid</li>
+                <li class="">Material UI</li>
+                <li class="">Bootstrap</li>
+                <li class="">Grid</li>
               </ul>
               <ul class="list-group">
-                <li class="list-group-item title-li-backend">Others</li>
-                <li class="list-group-item">Git</li>
-                <li class="list-group-item">GitHub</li>
-                <li class="list-group-item">Npm</li>
-                <li class="list-group-item">Slack</li>
+                <li class="title-li-backend list-group-item">Others</li>
+                <li class="">Git</li>
+                <li class="">GitHub</li>
+                <li class="">Npm</li>
+                <li class="">Slack</li>
               </ul>
             </div>
           </div>
@@ -93,51 +100,36 @@
           <div id="project-div" class="anchor"></div>
           <div
             id="projets"
-            class="container-fluid mt-3 section-title mt-2 bg-title"
+            class="container-fluid section-title bg-title-white"
           >
-            <h2 class="h5 p-3 text-center">Projets</h2>
+            <h2 class="h5 p-3 text-center mb-0">Projets</h2>
           </div>
 
           <div class="container-fluid">
-            <div class="box border mt-2 p-5">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-                velit fugiat, non eum voluptatibus adipisci explicabo eligendi
-                quo autem laudantium sequi iusto soluta beatae et qui
-                consequuntur, alias tempore dolores quas architecto odio! A
-                consectetur sequi quis eum magnam dolor, dicta quia illum saepe
-                ducimus eius, consequatur accusamus alias ipsum.
-              </p>
-            </div>
-            <div class="box border mt-2 p-5">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-                velit fugiat, non eum voluptatibus adipisci explicabo eligendi
-                quo autem laudantium sequi iusto soluta beatae et qui
-                consequuntur, alias tempore dolores quas architecto odio! A
-                consectetur sequi quis eum magnam dolor, dicta quia illum saepe
-                ducimus eius, consequatur accusamus alias ipsum.
-              </p>
-            </div>
-            <div class="box border mt-2 p-5">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-                velit fugiat, non eum voluptatibus adipisci explicabo eligendi
-                quo autem laudantium sequi iusto soluta beatae et qui
-                consequuntur, alias tempore dolores quas architecto odio! A
-                consectetur sequi quis eum magnam dolor, dicta quia illum saepe
-                ducimus eius, consequatur accusamus alias ipsum.
-              </p>
-            </div>
-            <div class="box border mt-2 p-5">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-                velit fugiat, non eum voluptatibus adipisci explicabo eligendi
-                quo autem laudantium sequi iusto soluta beatae et qui
-                consequuntur, alias tempore dolores quas architecto odio! A
-                consectetur sequi quis eum magnam dolor, dicta quia illum saepe
-                ducimus eius, consequatur accusamus alias ipsum.
-              </p>
+            <div class="box border-bottom-1 container-flex-projects">
+              <div class="m-2">
+                <p class="text-start fw-bold">Digital Nomad</p>
+                <p class="text-start">
+                  Un site vitrine 'entonnoir' qui regroupe les informations
+                  concernant le nomadisme digital.
+                </p>
+                <img
+                  class="projets-images"
+                  src="dn.png"
+                  alt="capture d'écran digital nomad"
+                />
+              </div>
+              <div class="m-2">
+                <p class="text-start fw-bold">En cours de réalisation</p>
+                <p class="text-start">
+                  Un faux projet destiné à occuper de l'espace pour le moment.
+                </p>
+                <img
+                  class="projets-images"
+                  src="sample.png"
+                  alt="capture d'écran temporaire d'un faux projet"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -146,65 +138,70 @@
       <div class="row no-gutter">
         <div class="col-md-12">
           <div id="contact-div" class="anchor"></div>
-          <div class="mt-3 container-fluid section-title mt-2 bg-title">
-            <h2 class="h5 text-center p-3">Contact</h2>
+          <div class="container-fluid section-title bg-title">
+            <h2 class="h5 text-center p-3 no-margin-bottom">Contact</h2>
           </div>
 
           <div class="container">
-            <div class="box border mt-2 p-5">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-                velit fugiat, non eum voluptatibus adipisci explicabo eligendi
-                quo autem laudantium sequi iusto soluta beatae et qui
-                consequuntur, alias tempore dolores quas architecto odio! A
-                consectetur sequi quis eum magnam dolor, dicta quia illum saepe
-                ducimus eius, consequatur accusamus alias ipsum.
-              </p>
-            </div>
-            <div class="box border mt-2 p-5">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-                velit fugiat, non eum voluptatibus adipisci explicabo eligendi
-                quo autem laudantium sequi iusto soluta beatae et qui
-                consequuntur, alias tempore dolores quas architecto odio! A
-                consectetur sequi quis eum magnam dolor, dicta quia illum saepe
-                ducimus eius, consequatur accusamus alias ipsum.
-              </p>
-            </div>
-            <div class="box border mt-2 p-5">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-                velit fugiat, non eum voluptatibus adipisci explicabo eligendi
-                quo autem laudantium sequi iusto soluta beatae et qui
-                consequuntur, alias tempore dolores quas architecto odio! A
-                consectetur sequi quis eum magnam dolor, dicta quia illum saepe
-                ducimus eius, consequatur accusamus alias ipsum.
-              </p>
-            </div>
-            <div class="box border mt-2 p-5">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio
-                velit fugiat, non eum voluptatibus adipisci explicabo eligendi
-                quo autem laudantium sequi iusto soluta beatae et qui
-                consequuntur, alias tempore dolores quas architecto odio! A
-                consectetur sequi quis eum magnam dolor, dicta quia illum saepe
-                ducimus eius, consequatur accusamus alias ipsum.
-              </p>
+            <div class="box p-5 grey-bg border-bot-yellow">
+              <form id="contact-form">
+                <input type="hidden" name="contact_number" />
+                <div class="mb-3">
+                  <label name="user_name" for="user_name" class="form-label"
+                    >Votre Nom</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="user_name"
+                    aria-describedby="name field"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label name="user_email" for="user_email" class="form-label"
+                    >Votre adresse email</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="user_email"
+                    aria-describedby="email field"
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label name="message" for="message" class="form-label"
+                    >Votre message</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn custom-btn">Submit</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
       </div>
 
       <div class="footer">
-        <a
-          class=""
-          target="_blank"
-          href="https://www.linkedin.com/in/paulbarrauddelagerie/"
-          ><img
-            class="img-linked-in-logo"
-            src="LI-In-Bug.png"
-            alt="linkedin logo"
-        /></a>
+        <div class="text-center mt-2 p-5">
+          <p>Paul Barraud de Lagerie - 2021</p>
+
+          <a
+            class=""
+            target="_blank"
+            href="https://www.linkedin.com/in/paulbarrauddelagerie/"
+            ><img
+              class="img-linked-in-logo"
+              src="LI-In-Bug.png"
+              alt="linkedin logo"
+          /></a>
+        </div>
       </div>
     </div>
     <script
@@ -212,6 +209,5 @@
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js"></script>
   </body>
 </html>
