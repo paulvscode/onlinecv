@@ -129,14 +129,26 @@ body {
   background-color: rgb(252, 232, 52) !important;
 }
 
-@media (min-device-width: 414px) {
+@media (min-device-width: 414px) and (max-device-width: 768px) {
+  .mobile-styling-top-div {
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    z-index: 999;
+  }
+  .margin-fixed-div {
+    margin-top: 107.233px;
+  }
+  .anchor {
+    scroll-margin-top: 107.233px;
+  }
+
   .container-resizing {
     width: 60%;
     margin: 0 auto;
     background-color: rgb(252, 252, 252);
   }
   .navbar-brand {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
   }
   .laptop-font-size {
     font-size: 1.3rem !important;
