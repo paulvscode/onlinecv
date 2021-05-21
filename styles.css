@@ -59,3 +59,7 @@ body {
 .anchor {
   scroll-margin-top: 46px;
 }
+
+.no-gutter {
+  --bs-gutter-x: 0rem !important;
+}
