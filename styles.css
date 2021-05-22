@@ -129,6 +129,40 @@ body {
   background-color: rgb(252, 232, 52) !important;
 }
 
+@media (min-width: 360px) and (max-width: 375px) {
+  .mobile-styling-top-div {
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    z-index: 999;
+  }
+  .margin-fixed-div {
+    margin-top: 110px;
+  }
+  .anchor {
+    scroll-margin-top: 110px;
+  }
+  .navbar-brand {
+    font-size: 1.2rem !important;
+  }
+  .laptop-font-size {
+    font-size: 1rem !important;
+  }
+  .container-listgroups {
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: flex-start !important;
+    font-size: 1rem;
+  }
+}
+
+@media (orientation: landscape) {
+  .mobile-styling-top-div {
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    z-index: 999;
+  }
+}
+
 @media (min-width: 375px) and (max-width: 414px) {
   .mobile-styling-top-div {
     text-align: center;
