@@ -24,8 +24,31 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="row-fluid stick-to-top mobile-styling-top-div">
-      <div class="col-md-6">
+    <div class="container-fluid p-2 stick-to-top mobile-styling-top-div">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="top-header py-2 mt-1">
+            <div class="container">
+              <h1 class="fs-4 text-center">
+                <span class="overcolor my-name">Paul Barraud de Lagerie</span>
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <nav class="navbar-sm navbar-light">
+            <div class="container-fluid text-center p-2">
+              <a class="navbar-brand" href="#stack-div">Stack</a>
+              <a class="navbar-brand" href="#project-div">Projets</a>
+              <a class="navbar-brand" href="#contact-div">Contact</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="row-fluid stick-to-top mobile-styling-top-div">
+      <div class="col-6">
         <div class="top-header py-2 mt-1">
           <div class="container">
             <h1 class="fs-4 text-center">
@@ -35,7 +58,7 @@
         </div>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-6">
         <nav class="navbar-sm navbar-light">
           <div class="container-fluid text-center p-2">
             <a class="navbar-brand" href="#stack-div">Stack</a>
@@ -44,9 +67,9 @@
           </div>
         </nav>
       </div>
-    </div>
+    </div> -->
 
-    <div class="border-bot-yellow">
+    <div class="">
       <div class="col-md-12 p-3 text-center margin-fixed-div">
         <p class="h6 lh-base">
           Je suis développeur fullstack web & mobile javascript.
@@ -58,82 +81,77 @@
     </div>
 
     <div class="main">
-      <div class="row no-gutter">
-        <div class="col-md-6 grey-bg border-bot-yellow">
-          <div id="stack-div" class="anchor"></div>
-          <div class="container-fluid section-title bg-title">
-            <h2 class="p-3 h5 text-center">Stack</h2>
-          </div>
-
-          <div class="box mt-3 mb-5 p-1">
-            <div class="container-listgroups">
-              <ul class="list-group">
-                <li class="list-group-item title-li-frontend">Front-End</li>
-                <li class="">Html</li>
-                <li class="">Css / Sass</li>
-                <li class="">React</li>
-                <li class="">Redux</li>
-              </ul>
-              <ul class="list-group">
-                <li class="list-group-item title-li-backend">Back-End</li>
-                <li class="">Node Js</li>
-                <li class="">Express Js</li>
-                <li class="">Sequelize</li>
-                <li class="">Postgresql</li>
-              </ul>
-            </div>
-            <div class="container-listgroups mt-4">
-              <ul class="list-group">
-                <li class="list-group-item title-li-frontend">Frameworks</li>
-                <li class="">Material UI</li>
-                <li class="">Bootstrap</li>
-                <li class="">Grid</li>
-              </ul>
-              <ul class="list-group">
-                <li class="title-li-backend list-group-item">Others</li>
-                <li class="">Git</li>
-                <li class="">GitHub</li>
-                <li class="">Npm</li>
-                <li class="">Slack</li>
-              </ul>
-            </div>
-          </div>
+      <div class="col-md-12 grey-bg">
+        <div id="stack-div" class="anchor"></div>
+        <div class="container-fluid section-title bg-title">
+          <h2 class="p-3 h5 text-center">Stack</h2>
         </div>
 
-        <div class="col-md-6 border-bot-yellow">
-          <div id="project-div" class="anchor"></div>
-          <div
-            id="projets"
-            class="container-fluid section-title bg-title-white"
-          >
-            <h2 class="h5 p-3 text-center mb-0">Projets</h2>
+        <div class="box mt-3 p-1">
+          <div class="container-listgroups">
+            <ul class="list-group">
+              <li class="list-group-item title-li-frontend">Front-End</li>
+              <li class="">Html</li>
+              <li class="">Css / Sass</li>
+              <li class="">React</li>
+              <li class="">Redux</li>
+            </ul>
+            <ul class="list-group">
+              <li class="list-group-item title-li-backend">Back-End</li>
+              <li class="">Node Js</li>
+              <li class="">Express Js</li>
+              <li class="">Sequelize</li>
+              <li class="">Postgresql</li>
+            </ul>
           </div>
+          <div class="container-listgroups mt-4">
+            <ul class="list-group">
+              <li class="list-group-item title-li-frontend">Frameworks</li>
+              <li class="">Material UI</li>
+              <li class="">Bootstrap</li>
+              <li class="">Grid</li>
+            </ul>
+            <ul class="list-group">
+              <li class="title-li-backend list-group-item">Others</li>
+              <li class="">Git</li>
+              <li class="">GitHub</li>
+              <li class="">Npm</li>
+              <li class="">Slack</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-          <div class="container-fluid">
-            <div class="box border-bottom-1 container-flex-projects">
-              <div class="m-2">
-                <p class="text-start fw-bold">Digital Nomad</p>
-                <p class="text-start">
-                  Un site vitrine 'entonnoir' qui regroupe les informations
-                  concernant le nomadisme digital.
-                </p>
-                <img
-                  class="projets-images"
-                  src="dn.jpg"
-                  alt="capture d'écran digital nomad"
-                />
-              </div>
-              <div class="m-2">
-                <p class="text-start fw-bold">En cours de réalisation</p>
-                <p class="text-start">
-                  Un faux projet destiné à occuper de l'espace pour le moment.
-                </p>
-                <img
-                  class="projets-images"
-                  src="sample.png"
-                  alt="capture d'écran temporaire d'un faux projet"
-                />
-              </div>
+      <div class="col-md-12">
+        <div id="project-div" class="anchor"></div>
+        <div id="projets" class="container-fluid section-title bg-title-white">
+          <h2 class="h5 p-3 text-center mb-0">Projets</h2>
+        </div>
+
+        <div class="container-fluid">
+          <div class="box border-bottom-1 container-flex-projects">
+            <div class="m-2">
+              <p class="text-start fw-bold">Digital Nomad</p>
+              <p class="text-start">
+                Un site vitrine 'entonnoir' qui regroupe les informations
+                concernant le nomadisme digital.
+              </p>
+              <img
+                class="projets-images"
+                src="dn.jpg"
+                alt="capture d'écran digital nomad"
+              />
+            </div>
+            <div class="m-2">
+              <p class="text-start fw-bold">En cours de réalisation</p>
+              <p class="text-start">
+                Un faux projet destiné à occuper de l'espace pour le moment.
+              </p>
+              <img
+                class="projets-images"
+                src="sample.png"
+                alt="capture d'écran temporaire d'un faux projet"
+              />
             </div>
           </div>
         </div>
@@ -146,8 +164,8 @@
             <h2 class="h5 text-center p-3 no-margin-bottom">Contact</h2>
           </div>
 
-          <div class="container">
-            <div class="box p-5 grey-bg border-bot-yellow">
+          <div class="container-fluid">
+            <div class="box p-5 grey-bg">
               <form id="contact-form">
                 <input type="hidden" name="contact_number" />
                 <div class="mb-3">

@@ -129,49 +129,43 @@ body {
   background-color: rgb(252, 232, 52) !important;
 }
 
-@media (min-device-width: 414px) and (max-device-width: 768px) {
+@media (min-width: 375px) and (max-width: 414px) {
   .mobile-styling-top-div {
     text-align: center;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(248, 248, 248);
     z-index: 999;
   }
   .margin-fixed-div {
-    margin-top: 107.233px;
+    margin-top: 115px;
   }
   .anchor {
-    scroll-margin-top: 107.233px;
-  }
-
-  .container-resizing {
-    width: 60%;
-    margin: 0 auto;
-    background-color: rgb(252, 252, 252);
+    scroll-margin-top: 115px;
   }
   .navbar-brand {
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
   }
   .laptop-font-size {
-    font-size: 1.3rem !important;
+    font-size: 1rem !important;
   }
   .container-listgroups {
     display: flex !important;
     justify-content: space-around !important;
     align-items: flex-start !important;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
-@media (max-device-width: 414px) {
+@media (min-width: 768px) {
   .mobile-styling-top-div {
     text-align: center;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(248, 248, 248);
     z-index: 999;
   }
   .margin-fixed-div {
-    margin-top: 99.8167px;
+    margin-top: 80px;
   }
   .anchor {
-    scroll-margin-top: 99.8167px;
+    scroll-margin-top: 80px;
   }
   .navbar-brand {
     font-size: 1.2rem !important;
