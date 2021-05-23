@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -128,6 +129,11 @@ section {
   background-color: #f1b814;
 }
 
+.link-bio {
+  text-decoration: underline;
+  color: black;
+}
+
 /* Compétences */
 
 .skill-category {
@@ -195,6 +201,7 @@ section {
 .img-project {
   max-width: 100%;
   margin-top: 0.5rem;
+  border-radius: 10px;
 }
 
 footer {
@@ -263,4 +270,29 @@ footer {
     width: 100vh;
     margin: 0 auto;
   }
+}
+
+/* bio  */
+
+.btn-back {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 2rem;
+  cursor: pointer;
 }
