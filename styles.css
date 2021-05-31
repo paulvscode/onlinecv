@@ -250,7 +250,7 @@ footer {
 
 @media only screen and (min-width: 768px) {
   html {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
   }
   .list-skills-container {
@@ -265,10 +265,32 @@ footer {
   }
   .fixed-top {
     position: fixed;
-    left: 0;
-    right: 0;
-    width: 100vh;
-    margin: 0 auto;
+    background-color: rgb(248, 248, 248);
+  }
+  .nav-menu {
+    margin-right: 10rem;
+  }
+  .nav-logo {
+    margin-left: 10rem;
+  }
+  .img-project {
+    max-width: 100%;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    min-width: 400px;
+    padding: 2rem;
+    height: 300px;
+  }
+  .project-container {
+    text-align: center;
+    padding-top: 5rem;
+  }
+  #project {
+    display: flex;
+  }
+  .project-description {
+    padding: 2rem;
+    height: 100px;
   }
 }
 
