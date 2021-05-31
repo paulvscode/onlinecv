@@ -274,11 +274,12 @@ footer {
     margin-left: 10rem;
   }
   .img-project {
-    max-width: 100%;
+    max-width: 500px;
+    min-width: 400px;
     margin-top: 0.5rem;
     border-radius: 20px;
-    min-width: 400px;
     padding: 2rem;
+    width: 400px;
     height: 300px;
   }
   .project-container {
@@ -290,6 +291,16 @@ footer {
   }
   .project-description {
     padding: 2rem;
+    height: 100px;
+    width: 400px;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+  }
+  textarea {
     height: 100px;
   }
 }
